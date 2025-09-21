@@ -20,3 +20,15 @@ from django.urls import path
 urlpatterns = [
     path('admin/', admin.site.urls),
 ]
+
+# urls.py
+# from django.urls import path
+# from drf_spectacular.views import SpectacularAPIView, SpectacularSwaggerView
+
+# urlpatterns = [
+#     # ... other URL patterns
+#     path('api/schema/', SpectacularAPIView.as_view(), name='schema'),
+#     # Optional: Swagger UI
+#     path('api/schema/swagger-ui/', SpectacularSwaggerView.as_view(url_name='schema'), name='swagger-ui'),
+#     # ...
+# ]
